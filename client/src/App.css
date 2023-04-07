@@ -1,0 +1,36 @@
+form{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+div{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 20px 10px;
+  align-items: center;
+  justify-content: start;
+}
+input{
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: lightgray;
+  font-size: larger;
+  font-weight: 500;
+}
+
+label{
+  font-weight: 400;
+  font-size: larger;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+}
